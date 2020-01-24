@@ -1,0 +1,9 @@
+- name: Merge Pull Request
+  uses: juliangruber/merge-pull-request-action@v1.0.0
+  with:
+    # GitHub Token
+    github-token: 
+    # Pull Request number
+    number: 
+    # Green button merge type (merge, squash, rebase)
+    method: # optional, default is merge
